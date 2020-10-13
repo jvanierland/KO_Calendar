@@ -1,7 +1,7 @@
 vim /etc/ld.so.conf;
 --------------------------------------
 # 
-C:/Ora64.11.2 #Depending on where you installed the oracle version driver path
+C:/Ora64.11.2/product/11.2.0/client_1/LIB #Depending on where you installed the oracle version driver path
 #Save run
 ldconfig;
 
