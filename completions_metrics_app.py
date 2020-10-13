@@ -1,3 +1,11 @@
+vim /etc/ld.so.conf;
+--------------------------------------
+# 
+C:/Ora64.11.2 #Depending on where you installed the oracle version driver path
+#Save run
+ldconfig;
+
+
 #interactive widget options ---> https://www.youtube.com/watch?v=_9WiB2PDO7k&ab_channel=JCharisTech%26J-Secur1ty
 
 import streamlit as st
