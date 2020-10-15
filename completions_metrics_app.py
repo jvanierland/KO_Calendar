@@ -7,8 +7,6 @@ import numpy as np
 import plotly.express as px
 import pandas as pd
 
-import libaio
-
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 import cx_Oracle
