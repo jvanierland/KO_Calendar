@@ -33,7 +33,7 @@ elif password == str('Voldemort88'):
     if app_mode == "SFC Energy":
 
         st.write("""
-        # SFC Demo
+        # SFC Energy Demo
         Demo Data Web app,  ***Suggesties voor Tom?***
         """)
 
