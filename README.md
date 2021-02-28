@@ -1,3 +1,2 @@
-# completions_metrics_app
-
-Completions Metrics app; First Try
+# portfolio_metrics_app
+Portfolio Metrics app; First Try
