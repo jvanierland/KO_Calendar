@@ -60,7 +60,7 @@ excel_file=st.file_uploader('Upload excel file')
 #-----------------------------------------------
 
 #Importing Data from excel sheet and replacing all 0 with numpy nans
-df=pd.read_excel(excel_file)
+df=pd.read_excel(excel_file, engine='openpyxl')
 df=df.set_index(0.00)
 df=df.replace(0, np.nan)
 
