@@ -19,7 +19,7 @@ if app_mode=="Kick Off Compressor Form":
     Demo Data Web app, project idea by ***Brandt Tucker***
     """)
 
-    df=pd.read_csv(r"\\sasmbfs01\sa_users_public\TVanierland\Python_Calendars\KO_Compressor_Data.csv")
+    df=pd.read_csv(r"C:\Calendar_Files_Brandt\KO_Compressor_Data.csv")
     df=df.sort_values('Start_Date')
     df
 
@@ -66,7 +66,7 @@ if app_mode=="Kick Off Compressor Form":
 
     if st.button('Form Submission'):
         df_result=pd.concat([df,df_new], ignore_index=True)
-        df_result.to_csv(r"\\sasmbfs01\sa_users_public\TVanierland\Python_Calendars\KO_Compressor_Data.csv", index=False)
+        df_result.to_csv(r"C:\Calendar_Files_Brandt\KO_Compressor_Data.csv", index=False)
         df_result
 
 elif app_mode=="Well Protection Trailer Form":
@@ -75,7 +75,7 @@ elif app_mode=="Well Protection Trailer Form":
     Demo Data Web app, project idea by ***Brandt Tucker***
     """)
 
-    df2=pd.read_csv(r"\\sasmbfs01\sa_users_public\TVanierland\Python_Calendars\Well_Protection_Trailer_Data.csv")
+    df2=pd.read_csv(r"C:\Calendar_Files_Brandt\Well_Protection_Trailer_Data.csv")
     df2=df2.sort_values('Start_Date')
     df2
 
@@ -122,7 +122,7 @@ elif app_mode=="Well Protection Trailer Form":
 
     if st.button('Form Submission'):
         df_result2=pd.concat([df2,df_new2], ignore_index=True)
-        df_result2.to_csv(r"\\sasmbfs01\sa_users_public\TVanierland\Python_Calendars\Well_Protection_Trailer_Data.csv", index=False)
+        df_result2.to_csv(r"C:\Calendar_Files_Brandt\Well_Protection_Trailer_Data.csv", index=False)
         df_result2
 
 
