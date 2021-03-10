@@ -4,14 +4,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import numpy as np
-from matplotlib.colors import ListedColormap
-from sklearn import neighbors, datasets
-from scipy.spatial import distance
-from scipy.spatial import distance_matrix
-import plotly.express as px
 pd.set_option('display.max_columns', None)
 
 st.sidebar.title('App Mode')
